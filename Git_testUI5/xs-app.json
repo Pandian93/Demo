@@ -1,0 +1,14 @@
+{
+  "welcomeFile": "/Git_testUI5/index.html",
+  "authenticationMethod": "route",
+  "logout": {
+    "logoutEndpoint": "/do/logout"
+  },
+  "routes": [
+    {
+      "source": "^/Git_testUI5/(.*)$",
+      "target": "$1",
+      "localDir": "webapp"
+    }
+  ]
+}
